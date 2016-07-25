@@ -132,7 +132,7 @@ class DocManager():
 
         # Translate the _id field to whatever unique key we're using
         doc[self.unique_key] = doc["_id"]
-        flat_doc = flattened(doc)
+        flat_doc = doc
 
         # Only include fields that are explicitly provided in the
         # schema or match one of the dynamic field patterns, if
