@@ -1,3 +1,11 @@
+RapidRatings clone of mongo-connector
+=====================================
+
+It copies data from mongo to solr.
+
+This project is used by news, supervisord configuration is there.
+
+
 ## System Overview
 
 The mongo-connector system is designed to hook up mongoDB to any target system. This allows all the
